@@ -1,0 +1,33 @@
+{
+  "name": "p-over-every",
+  "version": "1.0.0",
+  "description": "overEvery for Promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunar/p-over-every.git"
+  },
+  "keywords": [
+    "overEvery",
+    "over",
+    "every",
+    "allPass"
+  ],
+  "author": "me@gunargessner.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunar/p-over-every/issues"
+  },
+  "homepage": "https://github.com/gunar/p-over-every#readme",
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "promise-reduce": "^2.1.0"
+  }
+}
